@@ -1,0 +1,54 @@
+.Left{
+    width: 446px;
+    height: 100vh;
+    border: solid rgba(255, 255, 255, 0.15);
+    border-width: 0 1px 0 0;
+    position: fixed;
+}
+
+.tokenNamee{
+    font-family:'MinhaFontePersonalizada';
+    font-size: 60px;
+    margin-top: 45px;
+    color: white;
+}
+
+.tokenNamee, a{
+    margin-left: 40px;
+}
+
+a{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    width: 180px;
+    justify-content: space-between;
+    margin-top: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tokenCa{
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.pumpLinkImg{
+    width: 50px;
+}
+
+@font-face {
+    font-family: 'MinhaFontePersonalizada';
+    src: url('./fonte.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tokenCa{
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}

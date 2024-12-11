@@ -1,0 +1,181 @@
+.icon-stories {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border-radius: 1000px;
+    border: solid 3px black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-stories div{
+    color: #fff;
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.icon-stories img{
+    width: 75px;
+    height: 75px;
+    border-radius: 5000px;
+    object-fit: cover;
+}
+
+.icon-stories:before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 1000px;
+    background: linear-gradient(45deg, #fff, #86efe1, #86efac);
+    z-index: -1;
+}
+
+.Stories {
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 80px;
+    left: 48.2%;
+    transform: translate(-50%, -50%);
+}
+
+
+.profile-mini {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+    border: solid 3px black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.env-names{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.tokenName{
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    font-size: 17px;
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.ticker{
+    color: #fff;
+    margin-left: 50px;
+}
+
+.profile-mini img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5000px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.profile-mini:before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 1000px;
+    background: linear-gradient(45deg, #fff, #86efe1, #86efac);
+    z-index: -1;
+}
+
+.Feed{
+    display: flex;
+    flex-direction: column;
+}
+
+.Post{
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.time{
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.picture img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.picture{
+    width: 540px;
+    height: 675px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    margin-top: 20px;
+}
+
+.posts{
+    position: absolute;
+    top: 3550px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.like{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.like div{
+    cursor: pointer;
+}
+
+/* Adicione ao Feed.css */
+
+.story-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.story-viewer img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.story-viewer .story-name {
+    color: #fff;
+    font-size: 20px;
+}
